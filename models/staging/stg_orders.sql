@@ -1,3 +1,8 @@
+{{
+  config(
+    materialized='view'
+  )
+}}
     select
         id as order_id
         , order_date as order_date
